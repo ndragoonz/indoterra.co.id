@@ -2,9 +2,8 @@
 <html dir="ltr" lang="en-US">
 
 <head>
-
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="indoterra" />
+    <meta name="author" content="indoterra.co.id" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!-- ====a========================================
@@ -32,15 +31,10 @@
     <script type="text/javascript" src="<?= base_url() ?>assets/front_assets/js/jquery.layerslider.js"></script>
     <script type="text/javascript" src="<?= base_url() ?>assets/front_assets/js/bootstrap.min.js"></script>
 
-
-
-    <!-- ============================================
-        Document Title
-    ============================================= -->
-	<title>Indoterra - Home</title>
+    <link rel="shortcut icon" href="<?= base_url() ?>assets/front_assets/images/favicon.gif" type="image/x-icon"/>
+	  <title>Indoterra - Home</title>
 
     <style type="text/css">
-
     .layer-features p {
       font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', Helvetica, Arial, Serif;
       padding: 0px 10px;
@@ -70,10 +64,7 @@
       color: #4f6716;
       background: white;
 		}
-
     </style>
-
-
 </head>
 
 <body class="stretched">

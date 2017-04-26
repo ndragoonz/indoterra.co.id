@@ -1,4 +1,4 @@
-<?php $this->load->view('includes/header') ?>
+<?php $this->load->view('front/includes/header') ?>
 
         <div id="slider" class="layerslider-wrap">
           <div class="container clearfix">
@@ -102,127 +102,100 @@
 
                     <h2 id="home-portfolio-list" class="center">Apa Saja Yang Kami Kerjakan</h2>
                     <div id="portfolio" class="clearfix">
+
                       <!-- yang kami kerjakan item 1 -->
-                      <div class="portfolio-item pf-icons pf-media">
-                        <div class="portfolio-image port-gallery">
-                          <div class="fslider" data-animation="fade" data-pause="2500" data-speed="400">
-                            <div class="flexslider">
-                              <div class="slider-wrap">
-                                <div class="slide">
-                                  <img src="<?= base_url()?>assets/front_assets/images/portfolio/4/1.jpg" alt="Gallery" />
-                                </div>
-                                <div class="slide">
-                                  <img src="<?= base_url()?>assets/front_assets/images/portfolio/4/2.jpg" alt="Gallery" />
-                                </div>
+                      <div class="portfolio-item pf-uielements">
+                          <div class="portfolio-image">
+                              <a href="#"><img src="<?= base_url() ?>assets/front_assets/images/portfolio/3/1.jpg" alt="Grey UI Kit" title="Grey UI Kit" /></a>
+                              <div class="portfolio-overlay">
+                                  <div class="portfolio-overlay-wrap">
+                                      <p>Sed ut perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                                      <span><span></span></span>
+                                      <a href="#">UI Elements</a>
+                                  </div>
+
+                                  <div class="p-overlay-icons clearfix">
+                                      <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/1.jpg" class="p-o-image" data-lightbox="image"></a>
+                                      <a href="portfolio-single.php" class="p-o-link"></a>
+                                  </div>
                               </div>
-                            </div>
                           </div>
 
-                          <div class="portfolio-overlay">
-                            <div class="p-overlay-icons clearfix" data-lightbox="gallery">
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/1.jpg" class="p-o-gallery" data-lightbox="gallery-item"></a>
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/1-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                              <a href="portfolio-single-gallery.php" class="p-o-link"></a>
-                            </div>
+                          <div class="portfolio-title">
+                              <h3 title="Grey UI Kit"><a href="portfolio-single.php">Grey UI Kit</a></h3>
                           </div>
-                        </div>
-
-                        <div class="portfolio-title">
-                          <h3 title="webapp"><a href="portfolio-single-gallery.php">Web Applicatons</a></h3>
-                        </div>
                       </div>
                       <!-- end of yang kami kerjakan item 1 -->
 
                       <!-- yang kami kerjakan item 2 -->
-                      <div class="portfolio-item pf-illustrations">
-                        <div class="portfolio-image port-gallery">
-                          <div class="fslider" data-direction="vertical" data-easing="easeOutQuad" data-pause="3500">
-                            <div class="flexslider">
-                              <div class="slider-wrap">
-                                <div class="slide">
-                                  <img src="<?= base_url() ?>assets/front_assets/images/portfolio/4/3.jpg" alt="Gallery" />
-                                </div>
-                                <div class="slide">
-                                  <img src="<?= base_url() ?>assets/front_assets/images/portfolio/4/4.jpg" alt="Gallery" />
-                                </div>
+                      <div class="portfolio-item pf-uielements">
+                          <div class="portfolio-image">
+                              <a href="#"><img src="<?= base_url() ?>assets/front_assets/images/portfolio/3/2.jpg" alt="Grey UI Kit" title="Grey UI Kit" /></a>
+                              <div class="portfolio-overlay">
+                                  <div class="portfolio-overlay-wrap">
+                                      <p>Sed ut perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                                      <span><span></span></span>
+                                      <a href="#">UI Elements</a>
+                                  </div>
+
+                                  <div class="p-overlay-icons clearfix">
+                                      <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/2.jpg" class="p-o-image" data-lightbox="image"></a>
+                                      <a href="portfolio-single.php" class="p-o-link"></a>
+                                  </div>
                               </div>
-                            </div>
                           </div>
 
-                          <div class="portfolio-overlay">
-                            <div class="p-overlay-icons clearfix" data-lightbox="gallery">
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/3.jpg" class="p-o-gallery" data-lightbox="gallery-item"></a>
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/4.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                              <a href="portfolio-single-gallery.php" class="p-o-link"></a>
-                            </div>
+                          <div class="portfolio-title">
+                              <h3 title="Grey UI Kit"><a href="portfolio-single.php">Grey UI Kit</a></h3>
                           </div>
-                        </div>
-
-                        <div class="portfolio-title">
-                          <h3 title="mobileapp"><a href="portfolio-single-gallery.php">Mobile Applications</a></h3>
-                        </div>
                       </div>
                       <!-- end of yang kami kerjakan item 2 -->
 
                       <!-- yang kami kerjakan item 3 -->
-                      <div class="portfolio-item pf-icons pf-media">
-                        <div class="portfolio-image port-gallery">
-                          <div class="fslider" data-animation="fade" data-pause="2500" data-speed="400">
-                            <div class="flexslider">
-                              <div class="slider-wrap">
-                                <div class="slide">
-                                  <img src="<?= base_url()?>assets/front_assets/images/portfolio/4/5.jpg" alt="Gallery" />
-                                </div>
-                                <div class="slide">
-                                  <img src="<?= base_url()?>assets/front_assets/images/portfolio/4/7.jpg" alt="Gallery" />
-                                </div>
+                      <div class="portfolio-item pf-uielements">
+                          <div class="portfolio-image">
+                              <a href="#"><img src="<?= base_url() ?>assets/front_assets/images/portfolio/3/3.jpg" alt="Grey UI Kit" title="Grey UI Kit" /></a>
+                              <div class="portfolio-overlay">
+                                  <div class="portfolio-overlay-wrap">
+                                      <p>Sed ut perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                                      <span><span></span></span>
+                                      <a href="#">UI Elements</a>
+                                  </div>
+
+                                  <div class="p-overlay-icons clearfix">
+                                      <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/3.jpg" class="p-o-image" data-lightbox="image"></a>
+                                      <a href="portfolio-single.php" class="p-o-link"></a>
+                                  </div>
                               </div>
-                            </div>
                           </div>
 
-                          <div class="portfolio-overlay">
-                            <div class="p-overlay-icons clearfix" data-lightbox="gallery">
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/5.jpg" class="p-o-gallery" data-lightbox="gallery-item"></a>
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/7.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                              <a href="portfolio-single-gallery.php" class="p-o-link"></a>
-                            </div>
+                          <div class="portfolio-title">
+                              <h3 title="Grey UI Kit"><a href="portfolio-single.php">Grey UI Kit</a></h3>
                           </div>
-                        </div>
-
-                        <div class="portfolio-title">
-                          <h3 title="networking"><a href="portfolio-single-gallery.php">Networking and Servers</a></h3>
-                        </div>
                       </div>
                       <!-- end of yang kami kerjakan item 3 -->
 
                       <!-- yang kami kerjakan item 4 -->
-                      <div class="portfolio-item pf-illustrations">
-                        <div class="portfolio-image port-gallery">
-                          <div class="fslider" data-direction="vertical" data-easing="easeOutQuad" data-pause="3500">
-                            <div class="flexslider">
-                              <div class="slider-wrap">
-                                <div class="slide">
-                                  <img src="<?= base_url() ?>assets/front_assets/images/portfolio/4/8.jpg" alt="Gallery" />
-                                </div>
-                                <div class="slide">
-                                  <img src="<?= base_url() ?>assets/front_assets/images/portfolio/4/10.jpg" alt="Gallery" />
-                                </div>
+                      <div class="portfolio-item pf-uielements">
+                          <div class="portfolio-image">
+                              <a href="#"><img src="<?= base_url() ?>assets/front_assets/images/portfolio/3/4.jpg" alt="Grey UI Kit" title="Grey UI Kit" /></a>
+                              <div class="portfolio-overlay">
+                                  <div class="portfolio-overlay-wrap">
+                                      <p>Sed ut perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                                      <span><span></span></span>
+                                      <a href="#">UI Elements</a>
+                                  </div>
+
+                                  <div class="p-overlay-icons clearfix">
+                                      <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/4.jpg" class="p-o-image" data-lightbox="image"></a>
+                                      <a href="portfolio-single.php" class="p-o-link"></a>
+                                  </div>
                               </div>
-                            </div>
                           </div>
 
-                          <div class="portfolio-overlay">
-                            <div class="p-overlay-icons clearfix" data-lightbox="gallery">
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/8.jpg" class="p-o-gallery" data-lightbox="gallery-item"></a>
-                              <a href="<?= base_url() ?>assets/front_assets/images/portfolio/full/10.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                              <a href="portfolio-single-gallery.php" class="p-o-link"></a>
-                            </div>
+                          <div class="portfolio-title">
+                              <h3 title="Grey UI Kit"><a href="portfolio-single.php">Grey UI Kit</a></h3>
                           </div>
-                        </div>
-
-                        <div class="portfolio-title">
-                          <h3 title="matv"><a href="portfolio-single-gallery.php">Master TV</a></h3>
-                        </div>
                       </div>
                       <!-- end of yang kami kerjakan item 4 -->
                     </div>
@@ -233,259 +206,153 @@
                     <h3>Latest from the <span>Blog</span></h3>
 
                     <div class="col_half">
-
                         <div class="ipost">
-
                             <div class="col_half nobottommargin">
-
                                 <div class="ipost-image">
-
                                     <a href="#" class="image_fade"><img src="<?= base_url() ?>assets/front_assets/images/blog/small/1.jpg" title="Post 1" alt="Post 1" /></a>
                                     <div class="post-overlay fa fa-camera"></div>
-
                                 </div>
-
                             </div>
 
                             <div class="col_half col_last nobottommargin">
-
                                 <div class="ipost-title"><h5><a href="#">This is a standard post with preview picture</a></h5></div>
-
                                 <ul class="ipost-meta clearfix">
-
                                     <li><i class="fa fa-calendar"></i> 21/12/2012</li>
                                     <li><span>&middot;</span><a href="#"><i class="fa fa-comments"></i> 22 Comments</a></li>
-
                                 </ul>
 
                                 <div class="ipost-content">
-
                                     <p class="nobottommargin">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante.</p>
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="col_half col_last">
-
                         <div class="ipost">
-
                             <div class="col_half nobottommargin">
-
                                 <div class="ipost-image">
-
                                     <a href="#" class="image_fade"><img src="<?= base_url() ?>assets/front_assets/images/blog/small/1.jpg" title="Post 1" alt="Post 1" /></a>
                                     <div class="post-overlay fa fa-camera"></div>
-
                                 </div>
-
                             </div>
 
                             <div class="col_half col_last nobottommargin">
-
                                 <div class="ipost-title"><h5><a href="#">This is a standard post with an embedded Video</a></h5></div>
-
                                 <ul class="ipost-meta clearfix">
-
                                     <li><i class="fa fa-calendar"></i> 19/12/2012</li>
                                     <li><span>&middot;</span><a href="#"><i class="fa fa-comments"></i> 34 Comments</a></li>
-
                                 </ul>
 
                                 <div class="ipost-content">
-
                                     <p class="nobottommargin">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante.</p>
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="dotted-divider"></div>
 
-                    <script type="text/javascript">
-                        $(document).ready( function() {
-
-                            tab_widget( '#tabwidget-1' );
-
-                        });
-                    </script>
-
 
                     <div class="col_two_third">
-
-
                         <div class="tab_widget nobottommargin" id="tabwidget-1">
-
                             <ul class="tabs">
                                 <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="fa fa-star"></i> Our Mission</a></li>
                                 <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="fa fa-question-circle"></i> Get Support</a></li>
                                 <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="fa fa-map-marker"></i> Locate Us</a></li>
                             </ul>
-
                             <div class="tab_container">
-
                                 <div id="tab-tab1" class="tab_content entry_content clearfix">
-
                                     <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</p>
-
                                     <div class="col_half nobottommargin">
-
                                         <ul class="fa-ul">
 
                                             <li><i class="fa fa-li fa-check"></i>Customer Satisfaction</li>
                                             <li><i class="fa fa-li fa-check"></i>24x7 Live Support</li>
                                             <li><i class="fa fa-li fa-check"></i>Quality Products</li>
                                             <li><i class="fa fa-li fa-check"></i>Great Documentation</li>
-
                                         </ul>
-
                                     </div>
-
                                     <div class="col_half nobottommargin col_last">
-
                                         <ul class="fa-ul">
-
                                             <li><i class="fa fa-li fa-check"></i>30-Day Moneyback Guarantee</li>
                                             <li><i class="fa fa-li fa-check"></i>99.9% Uptime Promise</li>
                                             <li><i class="fa fa-li fa-check"></i>No Gimmicks</li>
                                             <li><i class="fa fa-li fa-check"></i>HTML5 &amp; CSS3 Compatible</li>
-
                                         </ul>
-
                                     </div>
 
                                     <div class="clear"></div>
-
                                 </div>
 
                                 <div id="tab-tab2" class="tab_content entry_content clearfix">
-
                                     <div class="col_two_fifth"><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></div>
-
                                     <div class="col_three_fifth col_last">
-
                                         <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
                                         <ul class="nobottommargin fa-ul">
-
                                             <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
                                             <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
                                             <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
                                             <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
-
                                         </ul>
-
                                     </div>
-
                                     <div class="clear"></div>
-
                                 </div>
 
                                 <div id="tab-tab3" class="tab_content entry_content clearfix">
-
                                     <div class="col_two_fifth">
-
                                         <img class="img-polaroid" width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=Elizabeth+Street,Melbourne,Australia&zoom=14&size=450x350&maptype=roadmap&markers=color:blue%7Clabel:E%7CElizabeth+Street,Melbourne,Australia&sensor=false" alt="Our Office Location" />
-
                                     </div>
 
                                     <div class="col_three_fifth col_last">
-
                                         <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
                                         <ul class="nobottommargin fa-ul">
-
                                             <li><i class="fa fa-li fa-map-marker"></i>13/2 Elizabeth Street <br />Melbourne VIC 3000<br /> Australia</li>
                                             <li><i class="fa fa-li fa-phone"></i>+91-22-21144113</li>
                                             <li><i class="fa fa-li fa-envelope-o"></i>info@coworker.com</li>
-
                                         </ul>
-
                                     </div>
 
                                     <div class="clear"></div>
-
                                 </div>
-
                             </div>
-
                         </div>
 
 
                         <script type="text/javascript">
-
                             jQuery(document).ready(function($) {
-
                                 tab_widget( '#tabwidget-1' );
-
                             });
-
                         </script>
-
-
                     </div>
 
 
                     <div class="col_one_third col_last">
-
-
                         <h4>Testimonials</h4>
-
                         <div class="testimonial-scroller" data-prev="#widget-testimonial-2-prev" data-next="#widget-testimonial-2-next">
-
-
                             <div class="testimonials" id="widget-testimonial-2">
-
-
                                 <div class="testimonial-item">
-
                                     <div class="testi-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
-
                                     <div class="testi-author">Collis Ta'eed<span><a href="http://themeforest.net">http://themeforest.net</a></span></div>
-
                                 </div>
-
                                 <div class="testimonial-item">
-
                                     <div class="testi-content">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
-
                                     <div class="testi-author">Cyan Ta'eed<span><a href="http://themeforest.net">http://activeden.net</a></span></div>
-
                                 </div>
-
-
                             </div>
-
-
                         </div>
 
 
                         <div id="widget-testimonial-2-prev" class="widget-scroll-prev"></div>
                         <div id="widget-testimonial-2-next" class="widget-scroll-next"></div>
-
-
                     </div>
-
 
 
                     <div class="clear"></div>
 
-
-
                     <div style="position: relative;">
-
                         <h4>Our <span>Clients</span></h4>
-
                         <ul id="clients-scroller" class="our-clients clearfix">
-
                             <li><a href="http://www.logospire.com/logos/3122"><img src="<?= base_url() ?>assets/front_assets/images/clients/3122.jpg" alt="Client 1" title="Client 1" /></a></li>
                             <li><a href="http://www.logospire.com/logos/4044"><img src="<?= base_url() ?>assets/front_assets/images/clients/4044.png" alt="Client 2" title="Client 2" /></a></li>
                             <li><a href="http://www.logospire.com/logos/4122"><img src="<?= base_url() ?>assets/front_assets/images/clients/4112.jpg" alt="Client 3" title="Client 3" /></a></li>
@@ -496,18 +363,14 @@
                             <li><a href="http://www.logospire.com/logos/5393"><img src="<?= base_url() ?>assets/front_assets/images/clients/5393.jpg" alt="Client 8" title="Client 8" /></a></li>
                             <li><a href="http://www.logospire.com/logos/5909"><img src="<?= base_url() ?>assets/front_assets/images/clients/5909.png" alt="Client 7" title="Client 7" /></a></li>
                             <li><a href="http://www.logospire.com/logos/6002"><img src="<?= base_url() ?>assets/front_assets/images/clients/6002.png" alt="Client 8" title="Client 8" /></a></li>
-
                         </ul>
 
                         <div class="widget-scroll-prev" id="ourclients_prev"></div>
                         <div class="widget-scroll-next" id="ourclients_next"></div>
 
                         <script type="text/javascript">
-
                             jQuery(document).ready(function($) {
-
                                 var clientsCarousel = $("#clients-scroller");
-
                                 clientsCarousel.carouFredSel({
                                     width : "100%",
                                     height : "auto",
@@ -543,17 +406,10 @@
                             });
 
                         </script>
-
                     </div>
-
-
                 </div>
-
-
             </div>
-
-
         </div>
 
 
-<?php $this->load->view('includes/footer') ?>
+<?php $this->load->view('front/includes/footer') ?>

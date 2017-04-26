@@ -418,6 +418,10 @@ span.page-divider span {
 .col_four_fifth { width: 79.2%; }
 .col_one_sixth { width: 13.33%; }
 .col_five_sixth { width: 82.67%; }
+.col_full { width: 100%; }
+.col_full_2 { width: 100%; height:inherit;}
+
+
 
 .postcontent,
 .landing-offer-media,

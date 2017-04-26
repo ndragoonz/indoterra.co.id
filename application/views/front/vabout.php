@@ -1,4 +1,4 @@
-<?php $this->load->view('includes/header') ?>
+<?php $this->load->view('front/includes/header') ?>
         <div id="content">
             <div id="page-title">
                 <div class="container clearfix">
@@ -14,20 +14,20 @@
 
             <div class="content-wrap">
                 <div class="container clearfix">
-                    <div class="col_three_fifth">
+                    <div class="col_full">
                         <div class="fslider clearfix">
                             <div class="flexslider">
                                 <div class="slider-wrap">
                                     <div class="slide">
-                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/10.jpg" alt="Slider 2" />
+                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/1.jpg" alt="Slider 2" />
                                     </div>
 
                                     <div class="slide">
-                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/9.jpg" alt="Slider 3" />
+                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/2.jpg" alt="Slider 3" />
                                     </div>
 
                                     <div class="slide">
-                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/11.jpg" alt="Slider 4" />
+                                        <img src="<?= base_url() ?>assets/front_assets/images/slider/3.jpg" alt="Slider 4" />
                                     </div>
 
                                 </div>
@@ -36,7 +36,7 @@
                     </div>
 
 
-                    <div class="col_two_fifth col_last">
+                    <div class="col_full col_last">
                         <div class="accordion clearfix nobottommargin">
                             <div class="acctitle">Our Mission</div>
                             <div class="acc_content clearfix">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
@@ -62,7 +62,7 @@
                     <div class="dotted-divider"></div>
 
 
-                    <div class="col_two_fifth">
+                    <div class="col_full">
                         <h3>Our <span>Skills</span></h3>
                         <ul class="skills">
                             <li>
@@ -97,30 +97,6 @@
                     </div>
 
 
-                    <div class="col_three_fifth col_last">
-                        <div class="tab_widget nobottommargin" id="tabwidget-1">
-                            <ul class="tabs">
-                                <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="fa fa-star"></i> Our Mission</a></li>
-                                <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="fa fa-question-circle"></i> Get Support</a></li>
-                                <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="fa fa-map-marker"></i> Locate Us</a></li>
-                            </ul>
-                            <div class="tab_container">
-                                <div id="tab-tab1" class="tab_content clearfix"><div class="dropcap">D</div><p>onec sed odio dui. Nulla <span class="highlight ntip" title="ToolTip Example">vitae elit</span> libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                                <p class="nobottommargin">Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue.Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</p></div>
-                                <div id="tab-tab2" class="tab_content clearfix">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                <div id="tab-tab3" class="tab_content clearfix">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</div>
-                            </div>
-                        </div>
-
-                        <script type="text/javascript">
-                            $(document).ready( function() {
-                                tab_widget( '#tabwidget-1' );
-                            });
-                        </script>
-
-                        <div class="clear"></div>
-                    </div>
-
                     <div class="clear"></div>
 
                     <div class="promo clearfix" style="margin-top: 20px;">
@@ -137,7 +113,7 @@
                     <div class="col_one_third clearfix">
                         <div class="team-member">
                             <div class="team-image">
-                                <img src="images/staff/1.jpg" alt="Team Member" title="Team Member" />
+                                <img src="<?= base_url() ?>assets/front_assets/images/staff/1.jpg" alt="Team Member" title="Team Member" />
                                 <span>CEO, Director</span>
                             </div>
 
@@ -274,4 +250,4 @@
         </div>
 
 
-        <?php require_once 'includes/footer.php'; ?>
+<?php $this->load->view('front/includes/footer') ?>

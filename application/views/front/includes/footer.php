@@ -59,8 +59,6 @@
 
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -79,22 +77,7 @@
 
 
     <div id="gotoTop" class="fa fa-angle-up"></div>
-
-
     <script type="text/javascript" src="<?= base_url() ?>assets/front_assets/js/custom.js"></script>
-    <script type="text/javascript">
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-23255544-4']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"839484a19a","applicationID":"5289971","transactionName":"ZQEDZxZUD0FZVkxfX1xLNEENGglGVVkXVV9FCxNYAUdOW1ZRXU4eQgwR","queueTime":0,"applicationTime":1,"atts":"SUYAEV5OHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
 </html>

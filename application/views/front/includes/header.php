@@ -120,10 +120,15 @@
                                 </li>
 
                         <?php if ($page == 'news' || $page == 'newsFull')  { ?>
-                                <li class="current"><?php echo anchor('homepage/news','<div>News</div><span>Our activities</span>')?></li>
+                                <li class="current"><a href="#"><div>Blog</div><span>Know Us More</span></a>
                         <?php } else {?>
-                                <li><?php echo anchor('homepage/news','<div>News</div><span>Our activities</span>')?></li>
+                                <li><a href="#"><div>Blog</div><span>Know Us More</span></a>
                         <?php } ?>
+                                  <ul>
+                                      <li><div><?php echo anchor('homepage/news','<i class="fa fa-laptop"></i> News')?></div></li>
+                                      <li><div><?php echo anchor('homepage/gallery','<i class="fa fa-picture-o"></i> Our Gallery')?></div></li>
+                                  </ul>
+                                </li>
 
 
                         <?php if ($page == 'clients') { ?>
@@ -233,10 +238,15 @@
                                 </li>
 
                         <?php if ($page == 'news' || $page == 'newsFull')  { ?>
-                                <li class="current"><?php echo anchor('homepage/news','<div>News</div><span>Our activities</span>')?></li>
+                                <li class="current"><a href="#"><div>Blog</div><span>Know Us More</span></a>
                         <?php } else {?>
-                                <li><?php echo anchor('homepage/news','<div>News</div><span>Our activities</span>')?></li>
+                                <li><a href="#"><div>Blog</div><span>Know Us More</span></a>
                         <?php } ?>
+                                  <ul>
+                                      <li><div><?php echo anchor('homepage/news','<i class="fa fa-laptop"></i> News')?></div></li>
+                                      <li><div><?php echo anchor('homepage/gallery','<i class="fa fa-picture-o"></i> Our Gallery')?></div></li>
+                                  </ul>
+                                </li>
 
                         <?php if ($page == 'clients') { ?>
                                 <li class="current"><?php echo anchor('homepage/clients','<div>Clients</div><span>Our Partner</span>')?></li>

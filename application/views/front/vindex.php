@@ -89,15 +89,94 @@
                 <div class="container clearfix">
 
 
-                  <div class="col_full center">
-                    <h2 style="line-height: 1.6;">Selamat datang di <span>indoterra.co.id, </span>Penasaran Siapah Kami?  </h2>
-                    <a href="#pricing-signup" data-scrollto="#pricing-signup" class="simple-button"><i class="fa fa-tasks"></i>Selengkapnya</a>
-                    <a href="#pricing-signup" data-scrollto="#pricing-signup" class="simple-button"><i class="fa fa-tasks"></i>Our Products</a>
-                    <a href="#home-portfolio-list" data-scrollto="#home-portfolio-list" class="simple-button"><i class="fa fa-briefcase"></i>Our Services</a>
-                  </div>
+                    <div class="col_full center">
+                      <h2 style="line-height: 1.6;">Selamat datang di <span>indoterra.co.id, </span>Cari Tahu Siapa Kami?  </h2>
+                      <a href="#pricing-signup" data-scrollto="#pricing-signup" class="simple-button"><i class="fa fa-tasks"></i>Selengkapnya</a>
+                      <!-- <a href="#pricing-signup" data-scrollto="#pricing-signup" class="simple-button"><i class="fa fa-tasks"></i>Our Products</a> -->
+                      <!-- <a href="#home-portfolio-list" data-scrollto="#home-portfolio-list" class="simple-button"><i class="fa fa-briefcase"></i>Our Services</a> -->
+                    </div>
 
 
                     <div class="dotted-divider"></div>
+
+                    <h2 id="home-portfolio-list" class="center">Our Products And Services</h2>
+
+                    <div class="col_full">
+                        <div class="tab_widget nobottommargin" id="tabwidget-1">
+                            <ul class="tabs">
+                                <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="fa fa-star"></i> Sofware Development</a></li>
+                                <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="fa fa-question-circle"></i> IT Network & Infrastructure</a></li>
+                                <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="fa fa-map-marker"></i> Hardware and Robotic Solution</a></li>
+                                <li><a href="#tab-tab4" data-href="#tab-tab3"><i class="fa fa-map-marker"></i> IT Consultant & Training</a></li>
+
+                            </ul>
+                            <div class="tab_container">
+                                <div id="tab-tab1" class="tab_content entry_content clearfix">
+                                    <div class="col_half"><center><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></center></div>
+                                    <div class="col_half col_last">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <ul class="nobottommargin fa-ul">
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div id="tab-tab2" class="tab_content entry_content clearfix">
+                                    <div class="col_half"><center><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></center></div>
+                                    <div class="col_half col_last">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <ul class="nobottommargin fa-ul">
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div id="tab-tab3" class="tab_content entry_content clearfix">
+                                    <div class="col_half"><center><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></center></div>
+                                    <div class="col_half col_last">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <ul class="nobottommargin fa-ul">
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div id="tab-tab4" class="tab_content entry_content clearfix">
+                                    <div class="col_half"><center><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></center></div>
+                                    <div class="col_half col_last">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <ul class="nobottommargin fa-ul">
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
+                                            <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <script type="text/javascript">
+                            jQuery(document).ready(function($) {
+                                tab_widget( '#tabwidget-1' );
+                            });
+                        </script>
+                    </div>
 
 
                     <h2 id="home-portfolio-list" class="center">Apa Saja Yang Kami Kerjakan</h2>
@@ -254,98 +333,6 @@
                     <div class="dotted-divider"></div>
 
 
-                    <div class="col_two_third">
-                        <div class="tab_widget nobottommargin" id="tabwidget-1">
-                            <ul class="tabs">
-                                <li><a href="#tab-tab1" data-href="#tab-tab1"><i class="fa fa-star"></i> Our Mission</a></li>
-                                <li><a href="#tab-tab2" data-href="#tab-tab2"><i class="fa fa-question-circle"></i> Get Support</a></li>
-                                <li><a href="#tab-tab3" data-href="#tab-tab3"><i class="fa fa-map-marker"></i> Locate Us</a></li>
-                            </ul>
-                            <div class="tab_container">
-                                <div id="tab-tab1" class="tab_content entry_content clearfix">
-                                    <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</p>
-                                    <div class="col_half nobottommargin">
-                                        <ul class="fa-ul">
-
-                                            <li><i class="fa fa-li fa-check"></i>Customer Satisfaction</li>
-                                            <li><i class="fa fa-li fa-check"></i>24x7 Live Support</li>
-                                            <li><i class="fa fa-li fa-check"></i>Quality Products</li>
-                                            <li><i class="fa fa-li fa-check"></i>Great Documentation</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col_half nobottommargin col_last">
-                                        <ul class="fa-ul">
-                                            <li><i class="fa fa-li fa-check"></i>30-Day Moneyback Guarantee</li>
-                                            <li><i class="fa fa-li fa-check"></i>99.9% Uptime Promise</li>
-                                            <li><i class="fa fa-li fa-check"></i>No Gimmicks</li>
-                                            <li><i class="fa fa-li fa-check"></i>HTML5 &amp; CSS3 Compatible</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div id="tab-tab2" class="tab_content entry_content clearfix">
-                                    <div class="col_two_fifth"><img src="<?= base_url() ?>assets/front_assets/images/slider/sample.jpg" class="notopmargin norightmargin img-thumbnail" alt="Image" title="Image" /></div>
-                                    <div class="col_three_fifth col_last">
-                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <ul class="nobottommargin fa-ul">
-                                            <li><i class="fa fa-li fa-thumbs-up"></i>Live Support (10 AM to 6 PM)</li>
-                                            <li><i class="fa fa-li fa-thumbs-up"></i>Phone Support (10 AM to 10 PM)</li>
-                                            <li><i class="fa fa-li fa-thumbs-up"></i>Email Support (24x7)</li>
-                                            <li><i class="fa fa-li fa-thumbs-up"></i>Free Forum Access</li>
-                                        </ul>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div id="tab-tab3" class="tab_content entry_content clearfix">
-                                    <div class="col_two_fifth">
-                                        <img class="img-polaroid" width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=Elizabeth+Street,Melbourne,Australia&zoom=14&size=450x350&maptype=roadmap&markers=color:blue%7Clabel:E%7CElizabeth+Street,Melbourne,Australia&sensor=false" alt="Our Office Location" />
-                                    </div>
-
-                                    <div class="col_three_fifth col_last">
-                                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                                        <ul class="nobottommargin fa-ul">
-                                            <li><i class="fa fa-li fa-map-marker"></i>13/2 Elizabeth Street <br />Melbourne VIC 3000<br /> Australia</li>
-                                            <li><i class="fa fa-li fa-phone"></i>+91-22-21144113</li>
-                                            <li><i class="fa fa-li fa-envelope-o"></i>info@coworker.com</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <script type="text/javascript">
-                            jQuery(document).ready(function($) {
-                                tab_widget( '#tabwidget-1' );
-                            });
-                        </script>
-                    </div>
-
-
-                    <div class="col_one_third col_last">
-                        <h4>Testimonials</h4>
-                        <div class="testimonial-scroller" data-prev="#widget-testimonial-2-prev" data-next="#widget-testimonial-2-next">
-                            <div class="testimonials" id="widget-testimonial-2">
-                                <div class="testimonial-item">
-                                    <div class="testi-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
-                                    <div class="testi-author">Collis Ta'eed<span><a href="http://themeforest.net">http://themeforest.net</a></span></div>
-                                </div>
-                                <div class="testimonial-item">
-                                    <div class="testi-content">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
-                                    <div class="testi-author">Cyan Ta'eed<span><a href="http://themeforest.net">http://activeden.net</a></span></div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div id="widget-testimonial-2-prev" class="widget-scroll-prev"></div>
-                        <div id="widget-testimonial-2-next" class="widget-scroll-next"></div>
-                    </div>
 
 
                     <div class="clear"></div>
